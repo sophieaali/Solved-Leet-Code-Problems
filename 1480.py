@@ -3,6 +3,7 @@
 # Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
 # Return the running sum of nums.
 
+# solution idea 1:
 def runningSum(nums):
     newList = []
     for x in range(len(nums)):
@@ -15,6 +16,7 @@ print(runningSum([1,2,3,4]))
 print(runningSum([1,1,1,1,1]))
 # Output: [1,2,3,4,5]
 
+# solution idea 2:
 def runningSum(nums):
     newList = []
     result = 0
