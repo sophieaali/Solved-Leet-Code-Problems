@@ -22,4 +22,8 @@ def moveZeros(nums):
     return(nums)
 
 print(moveZeros([0,1,0,3,12]))
+
+print(moveZeros([0]))
+
+print(moveZeros([1]))
     
