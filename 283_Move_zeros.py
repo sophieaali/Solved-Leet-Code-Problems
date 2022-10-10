@@ -15,8 +15,9 @@ def moveZeros(nums):
     prev_idx = 0
     for i in range(len(nums)):
         if nums[i] != 0:
+            save_num = nums[prev_idx]
             nums[prev_idx] = nums[i]
-            nums[i] = 0
+            nums[i] = save_num
             prev_idx += 1
     return(nums)
 
